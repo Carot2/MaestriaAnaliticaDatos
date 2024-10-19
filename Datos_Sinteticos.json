@@ -1,0 +1,802 @@
+[
+  {
+    "id": 1,
+    "fecha": "2024-10-18T09:15:30",
+    "usuario": "jsmith@empresa.com",
+    "departamento": "Ventas",
+    "prioridad": "Alta",
+    "descripcion": "No puedo acceder a mi cuenta de correo electrónico. Aparece un mensaje de 'credenciales inválidas' aunque estoy seguro de que la contraseña es correcta."
+  },
+  {
+    "id": 2,
+    "fecha": "2024-10-18T10:30:45",
+    "usuario": "mrodriguez@empresa.com",
+    "departamento": "Finanzas",
+    "prioridad": "Crítica",
+    "descripcion": "El servidor de la base de datos financiera no responde. Necesitamos acceso urgente para cerrar el mes."
+  },
+  {
+    "id": 3,
+    "fecha": "2024-10-18T11:45:00",
+    "usuario": "alee@empresa.com",
+    "departamento": "Recursos Humanos",
+    "prioridad": "Media",
+    "descripcion": "La aplicación de gestión de nóminas está funcionando muy lenta. Tarda varios minutos en cargar cada página."
+  },
+  {
+    "id": 4,
+    "fecha": "2024-10-18T13:00:15",
+    "usuario": "rjohnson@empresa.com",
+    "departamento": "Operaciones",
+    "prioridad": "Baja",
+    "descripcion": "Necesito instalar el software de videoconferencia en mi nueva laptop. ¿Pueden ayudarme con los pasos o hacerlo remotamente?"
+  },
+  {
+    "id": 5,
+    "fecha": "2024-10-18T14:15:30",
+    "usuario": "tgarcia@empresa.com",
+    "departamento": "TI",
+    "prioridad": "Alta",
+    "descripcion": "Detectamos un intento de acceso no autorizado en el firewall. Necesitamos revisar los logs y reforzar la seguridad inmediatamente."
+  },
+  {
+    "id": 6,
+    "fecha": "2024-10-18T15:30:45",
+    "usuario": "lchen@empresa.com",
+    "departamento": "Marketing",
+    "prioridad": "Media",
+    "descripcion": "El sitio web de la empresa está caído. No podemos acceder desde fuera de la red corporativa."
+  },
+  {
+    "id": 7,
+    "fecha": "2024-10-18T16:45:00",
+    "usuario": "kmueller@empresa.com",
+    "departamento": "Ingeniería",
+    "prioridad": "Alta",
+    "descripcion": "El servidor de control de versiones (Git) no está funcionando. No podemos hacer push ni pull de nuestros cambios."
+  },
+  {
+    "id": 8,
+    "fecha": "2024-10-18T17:00:15",
+    "usuario": "slopez@empresa.com",
+    "departamento": "Atención al Cliente",
+    "prioridad": "Baja",
+    "descripcion": "Necesito actualizar mi foto de perfil en el directorio corporativo. ¿Pueden indicarme cómo hacerlo?"
+  },
+  {
+    "id": 9,
+    "fecha": "2024-10-19T08:30:30",
+    "usuario": "jdoe@empresa.com",
+    "departamento": "Logística",
+    "prioridad": "Alta",
+    "descripcion": "El sistema de seguimiento de envíos está mostrando errores. No podemos actualizar el estado de los paquetes en tiempo real."
+  },
+  {
+    "id": 10,
+    "fecha": "2024-10-19T09:45:45",
+    "usuario": "msmith@empresa.com",
+    "departamento": "Legal",
+    "prioridad": "Media",
+    "descripcion": "Necesitamos aumentar el espacio de almacenamiento en la nube para nuestros archivos confidenciales. Estamos cerca del límite actual."
+  },
+  {
+    "id": 11,
+    "fecha": "2024-10-19T11:00:00",
+    "usuario": "rjones@empresa.com",
+    "departamento": "Ventas",
+    "prioridad": "Baja",
+    "descripcion": "Mi monitor parpadea ocasionalmente. No es urgente, pero es molesto cuando trabajo por largos períodos."
+  },
+  {
+    "id": 12,
+    "fecha": "2024-10-19T12:15:15",
+    "usuario": "agarcia@empresa.com",
+    "departamento": "Finanzas",
+    "prioridad": "Alta",
+    "descripcion": "No podemos generar el informe mensual debido a un error en la conexión con la base de datos. Necesitamos solucionarlo hoy."
+  },
+  {
+    "id": 13,
+    "fecha": "2024-10-19T13:30:30",
+    "usuario": "lkim@empresa.com",
+    "departamento": "Recursos Humanos",
+    "prioridad": "Media",
+    "descripcion": "El sistema de registro de horas no está sincronizando correctamente con la aplicación móvil. Los empleados no pueden registrar sus horas fuera de la oficina."
+  },
+  {
+    "id": 14,
+    "fecha": "2024-10-19T14:45:45",
+    "usuario": "jmiller@empresa.com",
+    "departamento": "Operaciones",
+    "prioridad": "Crítica",
+    "descripcion": "La línea de producción se ha detenido debido a un fallo en el sistema de control. Necesitamos asistencia inmediata para reiniciar el sistema."
+  },
+  {
+    "id": 15,
+    "fecha": "2024-10-19T16:00:00",
+    "usuario": "tlee@empresa.com",
+    "departamento": "TI",
+    "prioridad": "Alta",
+    "descripcion": "Detectamos un pico inusual de tráfico en nuestra red. Sospechamos de un posible ataque DDoS. Necesitamos investigar y mitigar inmediatamente."
+  },
+  {
+    "id": 16,
+    "fecha": "2024-10-20T08:15:15",
+    "usuario": "dwilson@empresa.com",
+    "departamento": "Marketing",
+    "prioridad": "Baja",
+    "descripcion": "Necesito acceso al software de edición de imágenes. ¿Pueden instalar Adobe Photoshop en mi computadora?"
+  },
+  {
+    "id": 17,
+    "fecha": "2024-10-20T09:30:30",
+    "usuario": "mchen@empresa.com",
+    "departamento": "Ingeniería",
+    "prioridad": "Media",
+    "descripcion": "El cluster de servidores de desarrollo está experimentando latencia. Afecta nuestras pruebas de rendimiento."
+  },
+  {
+    "id": 18,
+    "fecha": "2024-10-20T10:45:45",
+    "usuario": "rlopez@empresa.com",
+    "departamento": "Atención al Cliente",
+    "prioridad": "Alta",
+    "descripcion": "El sistema CRM no carga los datos de los clientes. No podemos acceder a la información para atender las llamadas."
+  },
+  {
+    "id": 19,
+    "fecha": "2024-10-20T12:00:00",
+    "usuario": "jbrown@empresa.com",
+    "departamento": "Logística",
+    "prioridad": "Media",
+    "descripcion": "La impresora de etiquetas del almacén no funciona. Necesitamos imprimir etiquetas para los envíos de hoy."
+  },
+  {
+    "id": 20,
+    "fecha": "2024-10-20T13:15:15",
+    "usuario": "snguyen@empresa.com",
+    "departamento": "Legal",
+    "prioridad": "Alta",
+    "descripcion": "No podemos acceder a los archivos encriptados del caso Johnson. El software de desencriptación muestra un error."
+  },
+  {
+    "id": 21,
+    "fecha": "2024-10-20T14:30:30",
+    "usuario": "klee@empresa.com",
+    "departamento": "Ventas",
+    "prioridad": "Baja",
+    "descripcion": "Necesito configurar mi firma de correo electrónico con el nuevo logotipo de la empresa. ¿Pueden ayudarme?"
+  },
+  {
+    "id": 22,
+    "fecha": "2024-10-20T15:45:45",
+    "usuario": "mroberts@empresa.com",
+    "departamento": "Finanzas",
+    "prioridad": "Crítica",
+    "descripcion": "El sistema de procesamiento de pagos no está funcionando. No podemos procesar las transacciones de los clientes."
+  },
+  {
+    "id": 23,
+    "fecha": "2024-10-20T17:00:00",
+    "usuario": "jzhang@empresa.com",
+    "departamento": "Recursos Humanos",
+    "prioridad": "Media",
+    "descripcion": "El portal de empleados muestra información incorrecta sobre los beneficios. Necesitamos actualizar la información lo antes posible."
+  },
+  {
+    "id": 24,
+    "fecha": "2024-10-21T08:15:15",
+    "usuario": "tpatel@empresa.com",
+    "departamento": "Operaciones",
+    "prioridad": "Alta",
+    "descripcion": "El sistema de monitoreo de la planta no está recibiendo datos de los sensores en el área B. Necesitamos restaurar la conexión urgentemente."
+  },
+  {
+    "id": 25,
+    "fecha": "2024-10-21T09:30:30",
+    "usuario": "lgarcia@empresa.com",
+    "departamento": "TI",
+    "prioridad": "Alta",
+    "descripcion": "Detectamos un posible malware en varios equipos de la red. Necesitamos aislar y escanear estos equipos inmediatamente."
+  },
+  {
+    "id": 26,
+    "fecha": "2024-10-21T10:45:45",
+    "usuario": "rwilson@empresa.com",
+    "departamento": "Marketing",
+    "prioridad": "Media",
+    "descripcion": "La plataforma de análisis de redes sociales no está actualizando los datos. Necesitamos estos datos para nuestro informe semanal."
+  },
+  {
+    "id": 27,
+    "fecha": "2024-10-21T12:00:00",
+    "usuario": "schoi@empresa.com",
+    "departamento": "Ingeniería",
+    "prioridad": "Alta",
+    "descripcion": "El entorno de pruebas automatizadas está caído. No podemos ejecutar las pruebas de integración para el lanzamiento de mañana."
+  },
+  {
+    "id": 28,
+    "fecha": "2024-10-21T13:15:15",
+    "usuario": "mlopez@empresa.com",
+    "departamento": "Atención al Cliente",
+    "prioridad": "Baja",
+    "descripcion": "Necesito acceso al historial de chat de los últimos 6 meses. ¿Pueden proporcionarme los permisos necesarios?"
+  },
+  {
+    "id": 29,
+    "fecha": "2024-10-21T14:30:30",
+    "usuario": "jkim@empresa.com",
+    "departamento": "Logística",
+    "prioridad": "Alta",
+    "descripcion": "El sistema de gestión de inventario muestra discrepancias con el stock físico. Necesitamos verificar y corregir la base de datos."
+  },
+  {
+    "id": 30,
+    "fecha": "2024-10-21T15:45:45",
+    "usuario": "asingh@empresa.com",
+    "departamento": "Legal",
+    "prioridad": "Media",
+    "descripcion": "Necesitamos restaurar una versión anterior de un contrato del repositorio de documentos. No encontramos la opción para hacerlo."
+  },
+  {
+    "id": 31,
+    "fecha": "2024-10-21T17:00:00",
+    "usuario": "dlee@empresa.com",
+    "departamento": "Ventas",
+    "prioridad": "Baja",
+    "descripcion": "Mi laptop está haciendo un ruido extraño. No afecta su funcionamiento, pero me preocupa que pueda ser un problema mayor."
+  },
+  {
+    "id": 32,
+    "fecha": "2024-10-22T08:15:15",
+    "usuario": "jchen@empresa.com",
+    "departamento": "Finanzas",
+    "prioridad": "Alta",
+    "descripcion": "No podemos acceder al sistema de facturación. Aparece un error de 'conexión perdida' cada vez que intentamos ingresar."
+  },
+  {
+    "id": 33,
+    "fecha": "2024-10-22T09:30:30",
+    "usuario": "rthomas@empresa.com",
+    "departamento": "Recursos Humanos",
+    "prioridad": "Media",
+    "descripcion": "El sistema de evaluación de desempeño no guarda los cambios. Los gerentes no pueden completar las evaluaciones del trimestre."
+  },
+  {
+    "id": 34,
+    "fecha": "2024-10-22T10:45:45",
+    "usuario": "lnguyen@empresa.com",
+    "departamento": "Operaciones",
+    "prioridad": "Crítica",
+    "descripcion": "El sistema de control de acceso a las instalaciones no funciona. No podemos entrar ni salir del edificio usando las tarjetas de acceso."
+  },
+  {
+    "id": 35,
+    "fecha": "2024-10-22T12:00:00",
+    "usuario": "mwang@empresa.com",
+    "departamento": "TI",
+    "prioridad": "Alta",
+    "descripcion": "Detectamos un aumento significativo en el uso del ancho de banda. Sospechamos de una posible fuga de datos. Necesitamos investigar inmediatamente."
+  },
+  {
+    "id": 36,
+    "fecha": "2024-10-22T13:15:15",
+    "usuario": "bsmith@empresa.com",
+    "departamento": "Marketing",
+    "prioridad": "Media",
+    "descripcion": "La herramienta de automatización de marketing está enviando correos duplicados a algunos clientes. Necesitamos revisar la configuración de las campañas."
+  },
+  {
+    "id": 37,
+    "fecha": "2024-10-22T14:30:30",
+    "usuario": "rjohnson@empresa.com",
+    "departamento": "Ingeniería",
+    "prioridad": "Alta",
+    "descripcion": "El servidor de compilación está fuera de servicio. No podemos generar nuevas versiones del software para las pruebas programadas."
+  },
+  {
+    "id": 38,
+    "fecha": "2024-10-22T15:45:45",
+    "usuario": "mgarcia@empresa.com",
+    "departamento": "Atención al Cliente",
+    "prioridad": "Baja",
+    "descripcion": "Necesito acceso al nuevo módulo de gestión de quejas en el sistema CRM. ¿Pueden concederme los permisos necesarios?"
+  },
+  {
+    "id": 39,
+    "fecha": "2024-10-22T17:00:00",
+    "usuario": "jlee@empresa.com",
+    "departamento": "Logística",
+    "prioridad": "Alta",
+    "descripcion": "El sistema de seguimiento GPS de nuestra flota de vehículos no está actualizando las posiciones. Perdimos la visibilidad de las entregas en curso."
+  },
+  {
+    "id": 40,
+    "fecha": "2024-10-23T08:15:15",
+    "usuario": "amueller@empresa.com",
+    "departamento": "Legal",
+    "prioridad": "Media",
+    "descripcion": "Necesitamos realizar una auditoría de accesos a los documentos confidenciales del último mes. ¿Pueden proporcionarnos un informe detallado?"
+  },
+  {
+    "id": 41,
+    "fecha": "2024-10-23T09:30:30",
+    "usuario": "tkim@empresa.com",
+    "departamento": "Ventas",
+    "prioridad": "Alta",
+    "descripcion": "El sistema de gestión de leads no está sincronizando con nuestro CRM. Estamos perdiendo información crucial de posibles clientes."
+  },
+  {
+    "id": 42,
+    "fecha": "2024-10-23T10:45:45",
+    "usuario": "spattel@empresa.com",
+    "departamento": "Finanzas",
+    "prioridad": "Crítica",
+    "descripcion": "No podemos acceder al módulo de cierre contable. Tenemos que cerrar los libros hoy y el sistema no responde."
+  },
+  {
+    "id": 43,
+    "fecha": "2024-10-23T12:00:00",
+    "usuario": "jzhao@empresa.com",
+    "departamento": "Recursos Humanos",
+    "prioridad": "Baja",
+    "descripcion": "La plataforma de aprendizaje en línea muestra un error al intentar cargar nuevos cursos. ¿Pueden revisar los permisos de carga?"
+  },
+  {
+    "id": 44,
+    "fecha": "2024-10-23T13:15:15",
+    "usuario": "rlopez@empresa.com",
+    "departamento": "Operaciones",
+    "prioridad": "Alta",
+    "descripcion": "El sistema de control de calidad está generando falsos positivos. Necesitamos recalibrar los parámetros de detección urgentemente."
+  },
+  {
+    "id": 45,
+    "fecha": "2024-10-23T14:30:30",
+    "usuario": "cwilson@empresa.com",
+    "departamento": "TI",
+    "prioridad": "Alta",
+    "descripcion": "Detectamos un intento de phishing dirigido a nuestros ejecutivos. Necesitamos reforzar los filtros de correo y alertar a los usuarios."
+  },
+  {
+    "id": 46,
+    "fecha": "2024-10-23T15:45:45",
+    "usuario": "mthomas@empresa.com",
+    "departamento": "Marketing",
+    "prioridad": "Media",
+    "descripcion": "La integración entre nuestro CMS y las redes sociales no está funcionando. No podemos publicar contenido automáticamente."
+  },
+  {
+    "id": 47,
+    "fecha": "2024-10-23T17:00:00",
+    "usuario": "jbrown@empresa.com",
+    "departamento": "Ingeniería",
+    "prioridad": "Alta",
+    "descripcion": "El entorno de desarrollo containerizado está caído. Los desarrolladores no pueden levantar sus entornos locales."
+  },
+  {
+    "id": 48,
+    "fecha": "2024-10-24T08:15:15",
+    "usuario": "lwang@empresa.com",
+    "departamento": "Atención al Cliente",
+    "prioridad": "Media",
+    "descripcion": "El sistema de tickets no está enviando notificaciones por correo. Los clientes no reciben actualizaciones sobre sus casos."
+  },
+  {
+    "id": 49,
+    "fecha": "2024-10-24T09:30:30",
+    "usuario": "slee@empresa.com",
+    "departamento": "Logística",
+    "prioridad": "Alta",
+    "descripcion": "El software de optimización de rutas no está calculando correctamente. Esto está causando retrasos en las entregas y aumento de costos."
+  },
+  {
+    "id": 50,
+    "fecha": "2024-10-24T10:45:45",
+    "usuario": "mrodriguez@empresa.com",
+    "departamento": "Legal",
+    "prioridad": "Baja",
+    "descripcion": "Necesito actualizar el plugin de firma digital en mi computadora. El actual no es compatible con el nuevo sistema del gobierno."
+  },
+  {
+    "id": 51,
+    "fecha": "2024-10-24T12:00:00",
+    "usuario": "dsmith@empresa.com",
+    "departamento": "Ventas",
+    "prioridad": "Media",
+    "descripcion": "La herramienta de presupuestos no está aplicando correctamente los descuentos por volumen. Necesitamos corregir esto antes de enviar más cotizaciones."
+  },
+  {
+    "id": 52,
+    "fecha": "2024-10-24T13:15:15",
+    "usuario": "jchen@empresa.com",
+    "departamento": "Finanzas",
+    "prioridad": "Alta",
+    "descripcion": "El sistema de gestión de gastos no está procesando los reembolsos. Los empleados están reportando retrasos en sus pagos."
+  },
+  {
+    "id": 53,
+    "fecha": "2024-10-24T14:30:30",
+    "usuario": "kmueller@empresa.com",
+    "departamento": "Recursos Humanos",
+    "prioridad": "Media",
+    "descripcion": "La plataforma de reclutamiento no está integrando correctamente con LinkedIn. No recibimos las aplicaciones de los candidatos."
+  },
+  {
+    "id": 54,
+    "fecha": "2024-10-24T15:45:45",
+    "usuario": "tnguyen@empresa.com",
+    "departamento": "Operaciones",
+    "prioridad": "Crítica",
+    "descripcion": "El sistema de control de la cadena de frío no está funcionando. Corremos el riesgo de perder un lote completo de productos perecederos."
+  },
+  {
+    "id": 55,
+    "fecha": "2024-10-24T17:00:00",
+    "usuario": "rjackson@empresa.com",
+    "departamento": "TI",
+    "prioridad": "Alta",
+    "descripcion": "Detectamos un comportamiento anómalo en varios servidores. Sospechamos de una posible infección por malware. Necesitamos investigar y aislar."
+  },
+  {
+    "id": 56,
+    "fecha": "2024-10-25T08:15:15",
+    "usuario": "alee@empresa.com",
+    "departamento": "Marketing",
+    "prioridad": "Baja",
+    "descripcion": "Necesito acceso a la nueva biblioteca de recursos visuales. ¿Pueden proporcionarme las credenciales necesarias?"
+  },
+  {
+    "id": 57,
+    "fecha": "2024-10-25T09:30:30",
+    "usuario": "mwilson@empresa.com",
+    "departamento": "Ingeniería",
+    "prioridad": "Alta",
+    "descripcion": "La pipeline de integración continua está fallando en la etapa de pruebas de seguridad. No podemos desplegar las nuevas características."
+  },
+  {
+    "id": 58,
+    "fecha": "2024-10-25T10:45:45",
+    "usuario": "sgarcia@empresa.com",
+    "departamento": "Atención al Cliente",
+    "prioridad": "Media",
+    "descripcion": "El chatbot de atención al cliente está dando respuestas incorrectas. Necesitamos revisar y actualizar su base de conocimientos."
+  },
+  {
+    "id": 59,
+    "fecha": "2024-10-25T12:00:00",
+    "usuario": "jpatel@empresa.com",
+    "departamento": "Logística",
+    "prioridad": "Alta",
+    "descripcion": "El sistema de gestión de almacenes no está actualizando el inventario en tiempo real. Esto está causando problemas en la preparación de pedidos."
+  },
+  {
+    "id": 60,
+    "fecha": "2024-10-25T13:15:15",
+    "usuario": "lbrown@empresa.com",
+    "departamento": "Legal",
+    "prioridad": "Media",
+    "descripcion": "Necesitamos actualizar las políticas de retención de datos en nuestro sistema de gestión documental. ¿Pueden ayudarnos a implementar las nuevas reglas?"
+  },
+  {
+    "id": 61,
+    "fecha": "2024-10-25T14:30:30",
+    "usuario": "rchoi@empresa.com",
+    "departamento": "Ventas",
+    "prioridad": "Alta",
+    "descripcion": "El sistema de comisiones no está calculando correctamente los bonos del equipo. Necesitamos corregir esto antes del cierre del mes."
+  },
+  {
+    "id": 62,
+    "fecha": "2024-10-25T15:45:45",
+    "usuario": "mlopez@empresa.com",
+    "departamento": "Finanzas",
+    "prioridad": "Crítica",
+    "descripcion": "No podemos generar el informe de flujo de caja. El sistema muestra un error de 'división por cero' al intentar calcularlo."
+  },
+  {
+    "id": 63,
+    "fecha": "2024-10-25T17:00:00",
+    "usuario": "jkim@empresa.com",
+    "departamento": "Recursos Humanos",
+    "prioridad": "Baja",
+    "descripcion": "El sistema de reserva de salas de reuniones no está sincronizando correctamente con los calendarios de Outlook. Causa conflictos en las reservas."
+  },
+  {
+    "id": 64,
+    "fecha": "2024-10-26T08:15:15",
+    "usuario": "tsmith@empresa.com",
+    "departamento": "Operaciones",
+    "prioridad": "Alta",
+    "descripcion": "El sistema de monitoreo de equipos industriales no está registrando las lecturas de temperatura. Esto podría llevar a fallos no detectados."
+  },
+  {
+    "id": 65,
+    "fecha": "2024-10-26T09:30:30",
+    "usuario": "dwang@empresa.com",
+    "departamento": "TI",
+    "prioridad": "Alta",
+    "descripcion": "Detectamos un intento de acceso no autorizado a nuestra VPN corporativa. Necesitamos revisar los logs y reforzar la seguridad."
+  },
+  {
+    "id": 66,
+    "fecha": "2024-10-26T10:45:45",
+    "usuario": "jthomas@empresa.com",
+    "departamento": "Marketing",
+    "prioridad": "Media",
+    "descripcion": "La herramienta de análisis de campañas no está importando correctamente los datos de Google Ads. No podemos medir el ROI de nuestras campañas."
+  },
+  {
+    "id": 67,
+    "fecha": "2024-10-26T12:00:00",
+    "usuario": "lchen@empresa.com",
+    "departamento": "Ingeniería",
+    "prioridad": "Alta",
+    "descripcion": "El cluster de Kubernetes está experimentando fallos intermitentes. Varios microservicios están cayendo aleatoriamente."
+  },
+  {
+    "id": 68,
+    "fecha": "2024-10-26T13:15:15",
+    "usuario": "asingh@empresa.com",
+    "departamento": "Atención al Cliente",
+    "prioridad": "Baja",
+    "descripcion": "Necesito acceso al histórico de llamadas del último año. ¿Pueden proporcionarme un informe o los permisos para generarlo?"
+  },
+  {
+    "id": 69,
+    "fecha": "2024-10-26T14:30:30",
+    "usuario": "mrodriguez@empresa.com",
+    "departamento": "Logística",
+    "prioridad": "Alta",
+    "descripcion": "El sistema de gestión de flotas no está calculando correctamente el consumo de combustible. Esto afecta nuestras proyecciones de costos."
+  },
+  {
+    "id": 70,
+    "fecha": "2024-10-26T15:45:45",
+    "usuario": "klee@empresa.com",
+    "departamento": "Legal",
+    "prioridad": "Media",
+    "descripcion": "Necesitamos implementar un nuevo sistema de clasificación de documentos según su nivel de confidencialidad. ¿Pueden ayudarnos con la configuración?"
+  },
+  {
+    "id": 71,
+    "fecha": "2024-10-26T17:00:00",
+    "usuario": "bnguyen@empresa.com",
+    "departamento": "Ventas",
+    "prioridad": "Alta",
+    "descripcion": "El sistema de CRM no está sincronizando los datos de ventas con el dashboard ejecutivo. Los reportes muestran información desactualizada."
+  },
+  {
+    "id": 72,
+    "fecha": "2024-10-27T08:15:15",
+    "usuario": "rpatel@empresa.com",
+    "departamento": "Finanzas",
+    "prioridad": "Crítica",
+    "descripcion": "El sistema de procesamiento de nóminas está caído. No podemos generar los pagos de esta semana si no se resuelve hoy."
+  },
+  {
+    "id": 73,
+    "fecha": "2024-10-27T09:30:30",
+    "usuario": "jgarcia@empresa.com",
+    "departamento": "Recursos Humanos",
+    "prioridad": "Media",
+    "descripcion": "La plataforma de beneficios para empleados muestra información incorrecta sobre los planes de seguro. Necesitamos corregir esto antes del período de inscripción abierta."
+  },
+  {
+    "id": 74,
+    "fecha": "2024-10-27T10:45:45",
+    "usuario": "slee@empresa.com",
+    "departamento": "Operaciones",
+    "prioridad": "Alta",
+    "descripcion": "El sistema de control de acceso a las áreas restringidas no está registrando las entradas y salidas. Esto es un riesgo de seguridad importante."
+  },
+  {
+    "id": 75,
+    "fecha": "2024-10-27T12:00:00",
+    "usuario": "mwilson@empresa.com",
+    "departamento": "TI",
+    "prioridad": "Alta",
+    "descripcion": "Detectamos un aumento inusual en el tráfico de red saliente. Sospechamos de una posible exfiltración de datos. Necesitamos investigar inmediatamente."
+  },
+  {
+    "id": 76,
+    "fecha": "2024-10-27T13:15:15",
+    "usuario": "akim@empresa.com",
+    "departamento": "Marketing",
+    "prioridad": "Baja",
+    "descripcion": "Necesito instalar un nuevo plugin en Adobe Creative Suite para un proyecto. ¿Pueden ayudarme con la instalación y licencia?"
+  },
+  {
+    "id": 77,
+    "fecha": "2024-10-27T14:30:30",
+    "usuario": "jsmith@empresa.com",
+    "departamento": "Ingeniería",
+    "prioridad": "Alta",
+    "descripcion": "El sistema de control de versiones (Git) está experimentando conflictos frecuentes. Esto está retrasando nuestro proceso de desarrollo."
+  },
+  {
+    "id": 78,
+    "fecha": "2024-10-27T15:45:45",
+    "usuario": "lchen@empresa.com",
+    "departamento": "Atención al Cliente",
+    "prioridad": "Media",
+    "descripcion": "El sistema de grabación de llamadas no está funcionando correctamente. No podemos acceder a las grabaciones de las últimas 24 horas."
+  },
+  {
+    "id": 79,
+    "fecha": "2024-10-27T17:00:00",
+    "usuario": "rlopez@empresa.com",
+    "departamento": "Logística",
+    "prioridad": "Alta",
+    "descripcion": "El sistema de gestión de almacén está mostrando discrepancias entre el inventario físico y el digital. Necesitamos realizar una auditoría y corregir los errores."
+  },
+  {
+    "id": 80,
+    "fecha": "2024-10-28T08:15:15",
+    "usuario": "kmueller@empresa.com",
+    "departamento": "Legal",
+    "prioridad": "Media",
+    "descripcion": "Necesitamos implementar una nueva política de retención de correos electrónicos. ¿Pueden ayudarnos a configurar las reglas en el servidor de Exchange?"
+  },
+  {
+    "id": 81,
+    "fecha": "2024-10-28T09:30:30",
+    "usuario": "tyang@empresa.com",
+    "departamento": "Ventas",
+    "prioridad": "Alta",
+    "descripcion": "La herramienta de generación de propuestas no está cargando los precios actualizados. Estamos en riesgo de enviar cotizaciones con precios incorrectos."
+  },
+  {
+    "id": 82,
+    "fecha": "2024-10-28T10:45:45",
+    "usuario": "mrodriguez@empresa.com",
+    "departamento": "Finanzas",
+    "prioridad": "Crítica",
+    "descripcion": "El sistema de facturación electrónica no está generando las facturas correctamente. Esto está afectando nuestro flujo de caja y cumplimiento fiscal."
+  },
+  {
+    "id": 83,
+    "fecha": "2024-10-28T12:00:00",
+    "usuario": "jbrown@empresa.com",
+    "departamento": "Recursos Humanos",
+    "prioridad": "Baja",
+    "descripcion": "Necesito actualizar el organigrama de la empresa en la intranet. ¿Pueden proporcionarme acceso o asistencia para hacerlo?"
+  },
+  {
+    "id": 84,
+    "fecha": "2024-10-28T13:15:15",
+    "usuario": "slee@empresa.com",
+    "departamento": "Operaciones",
+    "prioridad": "Alta",
+    "descripcion": "El sistema de monitoreo de la cadena de suministro no está actualizando el estado de los pedidos en tiempo real. Esto está causando retrasos en la producción."
+  },
+  {
+    "id": 85,
+    "fecha": "2024-10-28T14:30:30",
+    "usuario": "dkim@empresa.com",
+    "departamento": "TI",
+    "prioridad": "Alta",
+    "descripcion": "Detectamos múltiples intentos de fuerza bruta en nuestro servidor de correo. Necesitamos implementar medidas adicionales de seguridad inmediatamente."
+  },
+  {
+    "id": 86,
+    "fecha": "2024-10-28T15:45:45",
+    "usuario": "mchen@empresa.com",
+    "departamento": "Marketing",
+    "prioridad": "Media",
+    "descripcion": "La herramienta de automatización de marketing no está segmentando correctamente las listas de correo. Esto afecta la personalización de nuestras campañas."
+  },
+  {
+    "id": 87,
+    "fecha": "2024-10-28T17:00:00",
+    "usuario": "rjohnson@empresa.com",
+    "departamento": "Ingeniería",
+    "prioridad": "Alta",
+    "descripcion": "El entorno de pruebas de carga está generando resultados inconsistentes. No podemos validar el rendimiento de la nueva versión del software."
+  },
+  {
+    "id": 88,
+    "fecha": "2024-10-29T08:15:15",
+    "usuario": "agarcia@empresa.com",
+    "departamento": "Atención al Cliente",
+    "prioridad": "Baja",
+    "descripcion": "Necesito acceso al nuevo módulo de encuestas de satisfacción en el sistema CRM. ¿Pueden proporcionarme los permisos necesarios?"
+  },
+  {
+    "id": 89,
+    "fecha": "2024-10-29T09:30:30",
+    "usuario": "tlee@empresa.com",
+    "departamento": "Logística",
+    "prioridad": "Alta",
+    "descripcion": "El sistema de rutas de entrega no está considerando las actualizaciones de tráfico en tiempo real. Esto está causando retrasos significativos en las entregas."
+  },
+  {
+    "id": 90,
+    "fecha": "2024-10-29T10:45:45",
+    "usuario": "spattel@empresa.com",
+    "departamento": "Legal",
+    "prioridad": "Media",
+    "descripcion": "Necesitamos implementar un nuevo sistema de marcado de agua digital en nuestros documentos confidenciales. ¿Pueden asesorarnos sobre las opciones disponibles?"
+  },
+  {
+    "id": 91,
+    "fecha": "2024-10-29T12:00:00",
+    "usuario": "jzhang@empresa.com",
+    "departamento": "Ventas",
+    "prioridad": "Alta",
+    "descripcion": "El tablero de pipeline de ventas no está reflejando correctamente las etapas de los deals. Esto afecta nuestras proyecciones de ingresos."
+  },
+  {
+    "id": 92,
+    "fecha": "2024-10-29T13:15:15",
+    "usuario": "mwilson@empresa.com",
+    "departamento": "Finanzas",
+    "prioridad": "Crítica",
+    "descripcion": "El sistema de reconciliación bancaria automática no está funcionando. Necesitamos resolver esto para cerrar el mes contable a tiempo."
+  },
+  {
+    "id": 93,
+    "fecha": "2024-10-29T14:30:30",
+    "usuario": "lnguyen@empresa.com",
+    "departamento": "Recursos Humanos",
+    "prioridad": "Media",
+    "descripcion": "El sistema de gestión de tiempo y asistencia no está calculando correctamente las horas extras. Esto afecta la nómina de los empleados por hora."
+  },
+  {
+    "id": 94,
+    "fecha": "2024-10-29T15:45:45",
+    "usuario": "rthomas@empresa.com",
+    "departamento": "Operaciones",
+    "prioridad": "Alta",
+    "descripcion": "El sistema de control de calidad automatizado está generando falsos positivos. Esto está retrasando la aprobación de lotes de producción."
+  },
+  {
+    "id": 95,
+    "fecha": "2024-10-29T17:00:00",
+    "usuario": "jlee@empresa.com",
+    "departamento": "TI",
+    "prioridad": "Alta",
+    "descripcion": "Detectamos una vulnerabilidad crítica en nuestro sistema de autenticación. Necesitamos aplicar un parche de seguridad urgentemente."
+  },
+  {
+    "id": 96,
+    "fecha": "2024-10-30T08:15:15",
+    "usuario": "ksmith@empresa.com",
+    "departamento": "Marketing",
+    "prioridad": "Baja",
+    "descripcion": "Necesito acceso a la nueva plataforma de gestión de contenidos. ¿Pueden proporcionarme las credenciales y una breve capacitación?"
+  },
+  {
+    "id": 97,
+    "fecha": "2024-10-30T09:30:30",
+    "usuario": "mlopez@empresa.com",
+    "departamento": "Ingeniería",
+    "prioridad": "Alta",
+    "descripcion": "La herramienta de análisis de código estático está reportando un número inusualmente alto de errores. Necesitamos verificar si es un problema de configuración."
+  },
+  {
+    "id": 98,
+    "fecha": "2024-10-30T10:45:45",
+    "usuario": "schoi@empresa.com",
+    "departamento": "Atención al Cliente",
+    "prioridad": "Media",
+    "descripcion": "El sistema de enrutamiento de llamadas no está distribuyendo equitativamente los casos entre los agentes. Algunos agentes están sobrecargados mientras otros tienen poco trabajo."
+  },
+  {
+    "id": 99,
+    "fecha": "2024-10-30T12:00:00",
+    "usuario": "asingh@empresa.com",
+    "departamento": "Logística",
+    "prioridad": "Alta",
+    "descripcion": "El sistema de gestión de devoluciones no está generando correctamente las etiquetas de envío. Esto está causando confusión y retrasos en el proceso de devolución."
+  },
+  {
+    "id": 100,
+    "fecha": "2024-10-30T13:15:15",
+    "usuario": "jmueller@empresa.com",
+    "departamento": "Legal",
+    "prioridad": "Media",
+    "descripcion": "Necesitamos implementar un nuevo sistema de seguimiento para las fechas de vencimiento de contratos. ¿Pueden ayudarnos a configurar alertas automáticas?"
+  }
+]
